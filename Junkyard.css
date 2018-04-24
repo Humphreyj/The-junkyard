@@ -1,0 +1,98 @@
+#header {
+	border: 1px solid black;
+
+	
+}
+
+#navElements {
+	list-style: none;
+	display:inline-block;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+	margin: 5px;
+}
+
+#header ul a {
+	text-decoration: none;
+	color: black;
+}
+
+#header ul a:hover {
+	color: blue;
+
+}
+
+#header ul a:active {
+	color: orange;
+	
+}
+
+#mainImage {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+#mainImage img {
+	width: 50%;
+	height: 40%;
+}
+
+#about {
+	text-align: center
+}
+
+#about p {
+	text-align: center;
+	font-size: 18px;
+}
+
+
+#contribute {
+	text-align: center
+}
+
+#contribute p {
+	text-align: center;
+	font-size: 18px;
+}
+
+#criteria {
+	list-style-position: inside;
+}
+
+#jumpIn {
+	text-align: center;
+}
+
+#jumpIn p {
+	font-size: 18px;
+}
+
+.sectionHead {
+	text-decoration: underline;
+}
+
+#finePrint {
+	text-align: center;
+	font-size: 6px;
+}
+
+#footer {
+	height: 50px;
+	background-color: grey;
+	margin-top: 20px;
+}
+
+.section {
+	border: 1px solid black;
+	margin: 10px 15px;
+
+}
+
+.section:hover {
+	border: 4px dashed black;
+	font-size: 24px;
+
+}
